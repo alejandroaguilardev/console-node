@@ -1,0 +1,17 @@
+{
+	"name": "node-base",
+	"version": "1.0.0",
+	"description": "base test",
+	"main": "app.js",
+	"devDependencies": {},
+	"scripts": {
+		"dev": "node app",
+		"test": "node app"
+	},
+	"author": "alejandro",
+	"license": "ISC",
+	"dependencies": {
+		"colors": "^1.4.0",
+		"yargs": "^17.6.2"
+	}
+}
