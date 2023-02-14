@@ -18,7 +18,7 @@ const createFile = (base = 1, listar = false, hasta=9) => {
 				console.log(salida);
 			}
 
-			fs.writeFileSync(`table-${base}.txt`, consola);
+			fs.writeFileSync(`./salida/table-${base}.txt`, salida);
 
 			resolve(`Table del ${base} generado`);
 		} catch (error) {
